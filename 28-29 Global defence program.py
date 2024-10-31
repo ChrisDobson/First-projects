@@ -1,6 +1,3 @@
-#This is the complete program for pages 28-29
-#Some extra lines have been left blank to make the program easier to read 
-
 aliens = 2
 password = "ALIENS"
 print("Quickly! Aliens are invading the planet.")

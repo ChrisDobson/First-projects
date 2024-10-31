@@ -1,5 +1,3 @@
-#This is the complete Guessing Game program from pages 30-31
-
 import random
 number = random.randint(1,20)
 guess =int(input("I'm thinking of a number from 1 to 20. What is it?"))

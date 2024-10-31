@@ -1,5 +1,3 @@
-#This adds loops to the dragonsnax program and takes you to the end of page 27
-
 import random
 exitChoice = "Nothing"
 while exitChoice != "EXIT":

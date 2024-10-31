@@ -1,5 +1,3 @@
-#This code takes you up to step 13 on page 26. It adds more choices about how to react to the dragon, and adds a sphinx.
-
 import random
 print("You are in a dark room in a mysterious castle.")
 print("In front of you are four doors. You must choose one.")
@@ -40,4 +38,3 @@ elif playerChoice == "4":
 else:
     print("Sorry, you didn't enter 1, 2, 3 or 4!")
     print("Run the game again to have another go.")
-    
