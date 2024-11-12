@@ -1,13 +1,13 @@
 import random
-print("You are in a dark room in a mysterious castle.")
+print("You enter a dim room in a gloomy castle. The doors creak and outside the wind is howling.")
 print("In front of you are four doors. You must choose one.")
 playerChoice = input("Choose 1, 2, 3 or 4...")
-if playerChoice == "1":
-    print("You find a room full of treasure. You're rich!")
-    print("GAME OVER. YOU WIN!")
+if  playerChoice == "1":
+    print("You find a room full of treasure. Well done!")
+    print("Congratulations, you win!")
 elif playerChoice == "2":
-    print("The door opens and an angry ogre hits you with his club.")
-    print("GAME OVER. YOU LOSE!")
+    print("The door opens and a hideous ogre attacks you!")
+    print("Sorry, you're dead!")
 elif playerChoice == "3":
     print("You go into the room and find a sleeping dragon.")
     print("You can either:")
@@ -15,11 +15,11 @@ elif playerChoice == "3":
     print("2) Try to sneak around the dragon to the exit.")
     dragonChoice = input("Type 1 or 2...")
     if dragonChoice == "1":
-        print("The dragon wakes up and eats you. You are delicious.")
-        print("GAME OVER. YOU LOSE.")
+        print("The dragon wakes up and eats you!")
+        print("Game over, you lose.")
     elif dragonChoice == "2":
-        print("You sneak around the dragon and escape the castle, blinking in the sunshine.")
-        print("GAME OVER! YOU WIN!")
+        print("You sneak around the dragon and escape the castle. You're rich!")
+        print("Congratulations, you win!")
     else:
         print("Sorry, you didn't enter 1 or 2!")
 elif playerChoice == "4":
@@ -29,12 +29,12 @@ elif playerChoice == "4":
     if number == random.randint(1,10):
         print("The sphinx hisses in disappointment. You guessed correctly.")
         print("She must let you go free.")
-        print ("GAME OVER. YOU WIN!")
+        print ("Congratulatioms, you win!")
     else:
         print("The sphinx tells you that your guess is incorrect.")
-        print("You are now her prisoner forever.")
-        print("GAME OVER, YOU LOSE.")
+        print("She eats you!")
+        print("Game over, you lose.")
         
 else:
-    print("Sorry, you didn't enter 1, 2, 3 or 4!")
+    print("Erm, you didn't enter 1, 2, 3 or 4...")
     print("Run the game again to have another go.")
