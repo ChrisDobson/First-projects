@@ -1,8 +1,8 @@
-aliens = 2
-password = "ALIENS"
-print("Quickly! Aliens are invading the planet.")
+daleks = 2
+password = "EXTERMINATE"
+print("Quickly! Daleks are invading the planet.")
 print("You need to activate the global defence platforms.")
-print("Hope you know the password, for Earth's sake...")
+print("I hope you know the password, for Earth's sake...")
 print()
 print("--------------------------------------------------")
 print("       WELCOME TO THE GLOBAL DEFENCE NETWORK      ")
@@ -16,17 +16,17 @@ while guess != password:
     print("INCORRECT PASSWORD.")
     print()
 
-    aliens = aliens ** 2
-    print("There are", aliens, "aliens now on Earth. Try again!")
+    daleks = daleks ** 2
+    print("There are", daleks, "daleks now on Earth. Try again!")
 
-    if aliens > 7400000000:
+    if daleks > 7400000000:
         break
 
     print()
-    print("Password hint: the things are attacking us!")
+    print("Password hint: it's their favourite word!")
     guess = input("Quick! Please enter the password: ").upper()
 
-if aliens > 7400000000:
-    print("Noooooo! The aliens have outnumbered us. All is lost.")
+if daleks > 7400000000:
+    print("Oh no! The Daleks have outnumbered us. All is lost!")
 else:
-    print("Hooray! We won the fight and the world is saved!")
+    print("Hurray, we won the fight and the world is saved!")
