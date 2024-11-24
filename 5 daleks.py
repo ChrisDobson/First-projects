@@ -1,5 +1,5 @@
 daleks = 2
-password = "EXTERMINATE"
+password = "DELETE"
 print("Quickly! Daleks are invading the planet.")
 print("You need to activate the global defence platforms.")
 print("I hope you know the password, for Earth's sake...")
