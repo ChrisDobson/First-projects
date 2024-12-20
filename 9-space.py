@@ -3,6 +3,3 @@ spacelist2 = ["space station", "star", "black hole"]
 spacelist = spacelist1 + spacelist2
 for item in spacelist:
     print(item)
-
-
-
